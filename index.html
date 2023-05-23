@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Singh- Portfolio</title>
+    <link rel="stylesheet" href="Static/CSS/index.css">
+    <script src="/Scripts/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- Side bar -->
+    <div class="sidenav .bg-info">
+        <a onclick="about()" href="#about">ABOUT</a>
+        <a onclick="resume()" href="#resume">Resume</a>
+        <a onclick="skills()" href="#skills">SKILLS</a>
+        <a onclick="projects()" href="projects">PROJECTS</a>
+    </div>
+
+    <!-- Main Content -->
+    <section class="main-about" id="main-about">
+
+        <!-- About content -->
+        <div class="about" id="about">
+
+            <div class="welcome-text">
+                <b>
+                    <h1>WELCOME</h1>
+                </b>
+                <b>
+                    <h2>Hi I'm <br>GAURAV SINGH</h2>
+                </b>
+            </div>
+
+            <div class="text">
+                <h3>
+                    <div><span style="background-color: red; padding: 7px; color: black; border-radius: 15px;">A TESTER
+                            WHO CAN BE A</span> DEVELOPER</div>
+                </h3>
+            </div>
+
+            <div class="socials">
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-envelope"></a>
+                <a href="#" class="fa fa-github"></a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="resume" id="resume">
+
+        <h1><b>SUMMARY</b></h1>
+        <ul class="summary-info">
+            <li>
+                Highly skilled QA engineer with 1.5 years of experience in software testing and quality assurance.
+                Demonstrated expertise in developing and implementing comprehensive test strategies, plans, and test
+                cases to ensure the delivery of high-quality software products
+            </li>
+            <li>
+                Proven ability to effectively manage products. Offering extensive experience in testing methodologies,
+                test automation, and product management. Proficient in developing and executing test plans, identifying
+                and documenting defects, and collaborating with cross-functional teams to drive continuous improvement.
+                With a unique blend of technical expertise and strategic thinking.
+            </li>
+            <li>
+                <b>Seeking a software development role to
+                    leverage my skills in programming, software design, and problem-solving. Proficient in web
+                    development
+                    and Python programming languages.</b>
+            </li>
+        </ul>
+
+        <div class="btn-section">
+            <div>
+                <button class="work-experience" id="work-experience">WORK EXPERIENCE</button>
+            </div>
+            <div class="download-resume" id="download-resume">
+                <button onclick="overlayon()">DOWNLOAD RESUME</button>
+            </div>
+            <div class="education" id="education">
+                <button>EDUCATION</button>
+            </div>
+        </div>
+
+        <div id="work-experience-modalbox" class="modalbox ogroobox">
+            <div class="dialog">
+                <button onclick="overlayoff()" class="closebutton" id="close">close</button>
+                <div>
+                    Hello World!
+                </div>
+            </div>
+        </div>
+
+        <!-- <div id="education-modalbox" class="modalbox ogroobox">
+            <div class="dialog">
+                <button title="Close" onClick="overlay()" class="closebutton" id="close1">close</button>
+                <div>
+                </div>
+                Hello World 2!
+            </div>
+        </div> -->
+
+    </section>
+
+    <script src="/Scripts/index.js"></script>
+</body>
+
+</html>
