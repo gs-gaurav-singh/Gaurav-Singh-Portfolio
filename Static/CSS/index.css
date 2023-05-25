@@ -198,11 +198,10 @@ body {
   background: rgba(81, 51, 51, 0.5);
   z-index: 99999;
   pointer-events: auto;
-  /* display: none; */
-  /* overflow-y: auto; */
+  overflow-y: auto;
 }
 
-/* .education-modalbox {
+.education-modalbox {
   min-width: 100%;
   position: fixed;
   top: 0;
@@ -215,7 +214,7 @@ body {
   display: none;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-} */
+}
 
 .modalbox>.dialog {
   position: relative;
