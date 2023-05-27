@@ -219,7 +219,7 @@ body {
 .modalbox>.dialog {
   position: relative;
   height: 560px;
-  top: -660px;
+  top: -500px;
   margin: 60px 5px 0px 30px;
   padding: 5px 20px 13px 20px;
   -moz-border-radius: 10px;
@@ -244,4 +244,35 @@ body {
   opacity: .6;
   z-index: 9999;
   cursor: pointer
+}
+
+.modal-text{
+  display: flex;
+}
+
+.dot {
+  background-color: green;
+  border-radius: 10px;
+  height: 15px;
+  width: 16px;
+  margin-top: 15px;
+  margin-left: 1px;
+}
+
+.vline {
+  background-color: green;
+  border-radius: 10px;
+  height: 210px;
+  width: 10px;
+  margin-left: 4px;
+}
+
+.modal-text-h2 {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.modal-text-p {
+  margin-left: 10px;
+  font-size: 18px;
 }
