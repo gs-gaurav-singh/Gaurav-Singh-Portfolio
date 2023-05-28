@@ -201,9 +201,9 @@ body {
   overflow-y: auto;
 }
 
-.education-modalbox {
+.e-modalbox {
   min-width: 100%;
-  position: fixed;
+  position: relative;
   top: 0;
   right: 0;
   bottom: 0;
@@ -213,10 +213,26 @@ body {
   pointer-events: auto;
   display: none;
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
 }
 
-.modalbox>.dialog {
+.w-modalbox>.dialog {
+  position: relative;
+  height: 560px;
+  top: -500px;
+  margin: 60px 5px 0px 30px;
+  padding: 5px 20px 13px 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+  -moz-box-shadow: 0 0 10px #000000;
+  -webkit-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
+  display: block;
+  pointer-events: auto;
+}
+
+.e-modalbox>.dialog {
   position: relative;
   height: 560px;
   top: -500px;
@@ -246,9 +262,6 @@ body {
   cursor: pointer
 }
 
-.modal-text{
-  display: flex;
-}
 
 .dot {
   background-color: green;
@@ -267,12 +280,14 @@ body {
   margin-left: 4px;
 }
 
+.modal-text {
+  margin-left: 22px;
+}
+
 .modal-text-h2 {
-  margin-left: 10px;
   font-size: 25px;
 }
 
 .modal-text-p {
-  margin-left: 10px;
   font-size: 18px;
 }
