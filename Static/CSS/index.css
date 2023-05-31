@@ -146,13 +146,12 @@ body {
 }
 
 .resume ul {
-  margin-left: 25px;
   font-size: 25px;
   text-align: justify;
 }
 
-.resume li {
-  padding: 5px;
+.resume p {
+  padding: 15px;
 }
 
 .btn-section {
