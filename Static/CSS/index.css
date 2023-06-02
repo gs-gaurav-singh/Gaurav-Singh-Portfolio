@@ -150,7 +150,7 @@ body {
   text-align: justify;
 }
 
-.resume p {
+.summary-info-p {
   padding: 15px;
 }
 
@@ -216,8 +216,8 @@ body {
 
 .w-modalbox>.dialog {
   position: relative;
-  height: 560px;
-  top: -500px;
+  height: 710px;
+  top: -560px;
   margin: 60px 5px 0px 30px;
   padding: 5px 20px 13px 20px;
   -moz-border-radius: 10px;
@@ -233,8 +233,8 @@ body {
 
 .e-modalbox>.dialog {
   position: relative;
-  height: 560px;
-  top: -500px;
+  height: 710px;
+  top: -560px;
   margin: 60px 5px 0px 30px;
   padding: 5px 20px 13px 20px;
   -moz-border-radius: 10px;
@@ -274,19 +274,16 @@ body {
 .vline {
   background-color: green;
   border-radius: 10px;
-  height: 210px;
+  height: 200px;
   width: 10px;
   margin-left: 4px;
 }
 
-.modal-text {
-  margin-left: 22px;
-}
-
 .modal-text-h2 {
-  font-size: 25px;
+  margin-left: 30px;
 }
 
-.modal-text-p {
-  font-size: 18px;
+.cllg-info {
+  margin-left: 30px;
+  font-size: 22px
 }
