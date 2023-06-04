@@ -216,10 +216,10 @@ body {
 
 .w-modalbox>.dialog {
   position: relative;
-  height: 710px;
+  height: 685px;
   top: -560px;
   margin: 60px 5px 0px 30px;
-  padding: 5px 20px 13px 20px;
+  padding: 3px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
@@ -261,8 +261,7 @@ body {
   cursor: pointer
 }
 
-
-.dot {
+.w-dot {
   background-color: green;
   border-radius: 10px;
   height: 15px;
@@ -271,7 +270,24 @@ body {
   margin-left: 3px;
 }
 
-.vline {
+.w-vline {
+  background-color: green;
+  border-radius: 10px;
+  height: 160px;
+  width: 10px;
+  margin-left: 4px;
+}
+
+.e-dot {
+  background-color: green;
+  border-radius: 10px;
+  height: 15px;
+  width: 16px;
+  margin-top: 15px;
+  margin-left: 3px;
+}
+
+.e-vline {
   background-color: green;
   border-radius: 10px;
   height: 200px;
@@ -287,4 +303,8 @@ body {
 .cllg-info {
   margin-left: 30px;
   font-size: 22px
+}
+
+table, th, td {
+  border: 1px solid black;
 }
