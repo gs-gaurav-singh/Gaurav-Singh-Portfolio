@@ -21,3 +21,18 @@ document.getElementById("close1").addEventListener("click", function () {
     var e = document.getElementsByClassName("e-modalbox");
     e[0].style.display = 'none';
 })
+
+// Function to download Resume.
+
+function downloadPDF() {
+    var fileURL = "../STATIC/Pdf/Gaurav Singh- Resume.pdf"
+    var fileName = "Gaurav Singh- Resume"
+
+    var a = document.createElement('a');
+    a.href = fileURL;
+    a.download = fileName;
+    a.target = '_blank';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
