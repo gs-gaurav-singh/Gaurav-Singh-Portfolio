@@ -333,18 +333,117 @@ table li {
 }
 
 .skills {
-  height: 715px;
-  background-color: #212121;
+  height: 730px;
+  /* background-color: #212121; */
+  background-image: url("/Static/Img/Skills\ background\ Image.jpg");
+  background-size: cover;
 }
 
-.cards {
-  margin-left: 400px;
+.cards-section1 {
+  margin-left: 200px;
+  padding: 10px 0 0 285px;
+  display: flex;
 }
 
-.card {
+.cards-section2 {
+  margin-left: 200px;
+  padding: 10px 0 0 450px;
+  display: flex;
+}
+
+
+.myCard {
+  background-color: transparent;
   width: 190px;
   height: 254px;
-  border-radius: 30px;
-  background: lightgrey;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+  perspective: 1000px;
+  margin: 50px;
+}
+
+.fab {
+  font-size: 10em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.pro-1 {
+  height: 3px;
+  width: 30px;
+  background-color: white;
+}
+
+.innerCard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.myCard:hover .innerCard {
+  transform: rotateY(180deg);
+}
+
+.frontSide,
+.backSide {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  color: white;
+  box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+}
+
+.frontSide,
+.frontSide::before {
+  background: linear-gradient(43deg, rgb(0, 3, 17) 0%, rgb(86, 36, 186) 46%, rgb(255, 204, 112) 100%);
+}
+
+.backSide,
+.backSide::before {
+  background-image: linear-gradient(160deg, #63baed 0%, #23514c 100%);
+}
+
+.backSide {
+  transform: rotateY(180deg);
+}
+
+.frontSide::before,
+.backSide::before {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: '';
+  width: 110%;
+  height: 110%;
+  position: absolute;
+  z-index: -1;
+  border-radius: 1em;
+  filter: blur(20px);
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0.3;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.3;
+  }
 }
