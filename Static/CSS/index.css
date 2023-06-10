@@ -104,12 +104,12 @@ body {
   margin: 5px 2px;
 }
 
-.fa:hover {
+.socials .fa:hover {
   background-color: #00202e;
 }
 
 .fa-linkedin {
-  background: #007bb5;
+  background: #125688;
   color: white;
 }
 
@@ -232,8 +232,6 @@ body {
   pointer-events: auto;
   background-color: #E6FFFD;
 }
-
-
 
 .e-modalbox>.dialog {
   position: relative;
@@ -397,6 +395,7 @@ table li {
 
 .backSide {
   transform: rotateY(180deg);
+  align-items: center;
 }
 
 .frontSide::before,
@@ -443,15 +442,74 @@ table li {
   margin: 0;
 }
 
-/* .progress-container {
-  background-color: #00202e;
-  height: 10px;
-  width: 100px;
-  border-radius: 15px;
-  margin-top: 80px;
+#testing {
+  font-size: 9em;
+  font-weight: 900;
+  text-align: center;
+  margin: -50px;
+  padding-right: 160px;
 }
 
-.html {
-  width: 30px;
-  background-color: red;
-} */
+.skill-name {
+  margin-top: -10px
+}
+
+.percentage {
+  margin-top: -110px
+}
+
+svg {
+  width: 114px;
+  height: 114px;
+  margin: 5px 5px 5px 0px;
+}
+
+.bg {
+  fill: none;
+  stroke-width: 10px;
+  stroke: #1A2C34;
+}
+
+[class^="meter-"] {
+  fill: none;
+  stroke-width: 10px;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  
+}
+
+.meter-1 {
+  stroke-dasharray: 360;
+  stroke-dashoffset: 126;
+  stroke: aqua;
+  animation: progress-1 1s ease-out;
+}
+
+.meter-2 {
+  stroke-dasharray: 360;
+  stroke-dashoffset: 126;
+  stroke: lightgreen;
+  animation: progress-1 1s ease-out;
+}
+
+.meter-3 {
+  stroke-dasharray: 360;
+  stroke-dashoffset: 144;
+  stroke: rgb(242, 218, 7);
+  animation: progress-1 1s ease-out;
+}
+
+.meter-4 {
+  stroke-dasharray: 360;
+  stroke-dashoffset: 108;
+  stroke: rgb(242, 89, 7);
+  animation: progress-1 1s ease-out;
+}
+
+.meter-5 {
+  stroke-dasharray: 360;
+  stroke-dashoffset: 144;
+  stroke: rgb(230, 19, 125);
+  animation: progress-1 1s ease-out;
+}
