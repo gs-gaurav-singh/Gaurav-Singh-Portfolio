@@ -1,0 +1,19 @@
+/* For mobile devices */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .sidenav {
+        height: 1px;
+        width: 375px;
+        display: inline-flex;
+    }
+
+    .sidenav a {
+        font-size: 15px;
+        margin-top: -35px;
+        padding-left: 50px;
+    }
+
+    .main-about {
+        position: absolute;
+        margin: 55px 0px;
+    }
+}
