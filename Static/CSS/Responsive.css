@@ -15,5 +15,23 @@
     .main-about {
         position: absolute;
         margin: 55px 0px;
+        width: 375px;
     }
+
+    .welcome-text h2 {
+        font-size: 2rem;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    .socials {
+        margin-top: 1px;
+        margin-left: 100px;
+    }
+
+    .fa {
+        padding: 45px;
+      }
 }
