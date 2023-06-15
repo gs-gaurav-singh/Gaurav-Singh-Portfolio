@@ -123,20 +123,11 @@ body {
   color: white;
 }
 
-.main-resume {
-  background-image: url(/Static/Img/Resume-background.webp);
-  /* background-color: black; */
-  background-size: cover;
-  display: flex;
-  height: 780px;
-}
-
 .resume {
   height: 750px;
   background-color: #FAF8F1;
   margin-left: 20%;
   margin-top: -80px;
-  /* color: white; */
 }
 
 .resume h1 {
