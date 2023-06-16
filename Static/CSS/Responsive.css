@@ -16,6 +16,7 @@
         position: absolute;
         margin: 55px 0px;
         width: 375px;
+        height: 591px;
     }
 
     .welcome-text h2 {
@@ -36,5 +37,17 @@
     }
 
     .resume {
+        position: absolute;
+        margin: 645px 0px;
+        width: 375px;
+    }
+    
+    .skills {
+        position: absolute;
+        margin: 1285px 0px;
+    }
+
+    .resume h1 {
+        margin-top: -20px;
     }
 }
