@@ -1,5 +1,5 @@
 /* For mobile devices */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 375px) and (max-width: 667px) {
     .sidenav {
         height: 1px;
         width: 375px;
@@ -14,9 +14,10 @@
 
     .main-about {
         position: absolute;
-        margin: 55px 0px;
+        margin-top: 57px;
+        margin-left: 0px;
         width: 375px;
-        height: 591px;
+        height: 590px;
     }
 
     .welcome-text h2 {
@@ -24,16 +25,16 @@
     }
 
     .text {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .socials {
-        margin-top: 1px;
+        margin-top: 5px;
         margin-left: 100px;
     }
 
     .fa {
-        padding: 45px;
+        padding: 40px;
     }
 
     .resume {
@@ -41,13 +42,67 @@
         margin: 645px 0px;
         width: 375px;
     }
-    
-    .skills {
-        position: absolute;
-        margin: 1285px 0px;
-    }
 
     .resume h1 {
         margin-top: -20px;
+        margin-right: 65px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .summary-info {
+        font-size: 20px;
+        margin: -30px 30px 1px -50px;
+        text-align: center;
+    }
+
+    .btn-section {
+        margin-top: -30px;
+        margin-left: -30px;
+        display: block;
+    }
+
+    .btn-section button {
+        padding: 15px;
+        width: 200px;
+    }
+
+    .work-experience {
+        margin: 5px;
+    }
+
+    .download-resume {
+        margin: 5px;
+    }
+
+    .education {
+        margin: 5px;
+    }
+
+    .w-modalbox>.dialog {
+        height: 610px;
+        margin-left: 5px;
+        margin-top: 35px;
+    }
+
+    .w-dot {
+        height: 15px;
+      }
+      
+      .w-vline {
+        height: 110px;
+      }
+
+    .modal-text-h2 {
+        font-size: 15px;
+    }
+
+    .w-info {
+        font-size: 17px;
+    }
+
+    .skills {
+        position: absolute;
+        margin: 1285px 0px;
     }
 }
