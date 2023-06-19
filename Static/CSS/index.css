@@ -283,17 +283,21 @@ table {
   margin: 20px;
 }
 
-.we-info-table {
-  font-size: larger;
-}
-
 .we-info--table-headline {
   background-color: #125688;
   font-size: x-large;
 }
 
+.we-info-table {
+  font-size: larger;
+}
+
 table li {
   padding: 5px;
+}
+
+.cllg-info {
+  margin-left: 10px;
 }
 
 .skills {

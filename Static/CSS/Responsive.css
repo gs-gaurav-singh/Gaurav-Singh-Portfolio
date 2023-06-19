@@ -87,22 +87,69 @@
 
     .w-dot {
         height: 15px;
-      }
-      
-      .w-vline {
+    }
+
+    .w-vline {
         height: 110px;
-      }
+    }
 
     .modal-text-h2 {
         font-size: 15px;
+        margin-top: -10px;
     }
 
     .w-info {
         font-size: 17px;
     }
 
+    table {
+        margin: 1px;
+        height: 455px;
+    }
+
+    .we-info--table-headline,
+    td {
+        font-size: 12px;
+    }
+
+    .we-info-table {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    table li {
+        padding: 1px;
+    }
+
+    .e-modalbox>.dialog {
+        height: 610px;
+        margin-left: 5px;
+        margin-top: 35px;
+      }
+
+    .e-dot {
+        height: 15px;
+    }
+
+    .e-vline {
+        height: 110px;
+    }
+
+    .cllg-info {
+        margin-left: 30px;
+        margin-top: -10px;
+      }
+
+
     .skills {
         position: absolute;
         margin: 1285px 0px;
+        width: 375px;
+        height: 1622px;
     }
+
+    .cards-section1, .cards-section2 {
+        display: contents;
+    }
+
 }
