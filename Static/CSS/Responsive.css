@@ -4,6 +4,8 @@
         height: 1px;
         width: 375px;
         display: inline-flex;
+        margin-top: -57px;
+        position: fixed;
     }
 
     .sidenav a {
@@ -13,7 +15,6 @@
     }
 
     .main-about {
-        position: absolute;
         margin-top: 57px;
         margin-left: 0px;
         width: 375px;
@@ -39,7 +40,7 @@
 
     .resume {
         position: absolute;
-        margin: 645px 0px;
+        margin: 1px 0px;
         width: 375px;
     }
 
@@ -143,7 +144,7 @@
 
     .skills {
         position: absolute;
-        margin: 1285px 0px;
+        margin: 700px 0px;
         width: 375px;
         height: 1622px;
     }
