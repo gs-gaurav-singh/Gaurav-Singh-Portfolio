@@ -4,8 +4,9 @@
         height: 1px;
         width: 375px;
         display: inline-flex;
-        margin-top: -57px;
+        margin-top: 0px;
         position: fixed;
+        z-index: +1;
     }
 
     .sidenav a {
@@ -15,22 +16,30 @@
     }
 
     .main-about {
-        margin-top: 57px;
+        /* margin-top: 57px; */
         margin-left: 0px;
         width: 375px;
-        height: 590px;
+        height: 667px;
     }
 
     .welcome-text h2 {
         font-size: 2rem;
+        width: 350px;
+        margin-top: 50px;
+    }
+
+    .welcome-text h1 {
+        margin-top: 65px;
     }
 
     .text {
         font-size: 14px;
+        /* background-color: red; */
+        width: 345px;
     }
 
     .socials {
-        margin-top: 5px;
+        margin-top: -10px;
         margin-left: 100px;
     }
 
@@ -45,7 +54,7 @@
     }
 
     .resume h1 {
-        margin-top: -20px;
+        margin-top: 10px;
         margin-right: 65px;
         text-align: center;
         font-size: 30px;
@@ -81,9 +90,9 @@
     }
 
     .w-modalbox>.dialog {
-        height: 610px;
+        height: 590px;
         margin-left: 5px;
-        margin-top: 35px;
+        margin-top: 60px;
     }
 
     .w-dot {
@@ -123,9 +132,9 @@
     }
 
     .e-modalbox>.dialog {
-        height: 610px;
+        height: 590px;
         margin-left: 5px;
-        margin-top: 35px;
+        margin-top: 60px;
       }
 
     .e-dot {
@@ -146,11 +155,15 @@
         position: absolute;
         margin: 700px 0px;
         width: 375px;
-        height: 1622px;
+        height: 1660px;
     }
 
     .cards-section1, .cards-section2 {
         display: contents;
+    }
+
+    .myCard {
+        margin: 75px;
     }
 
 }
