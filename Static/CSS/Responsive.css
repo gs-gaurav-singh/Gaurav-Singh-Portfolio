@@ -1,4 +1,5 @@
 /* For mobile devices */
+
 @media only screen and (min-width: 375px) and (max-width: 667px) {
     .sidenav {
         height: 1px;
@@ -16,7 +17,6 @@
     }
 
     .main-about {
-        /* margin-top: 57px; */
         margin-left: 0px;
         width: 375px;
         height: 667px;
@@ -34,7 +34,6 @@
 
     .text {
         font-size: 14px;
-        /* background-color: red; */
         width: 345px;
     }
 
@@ -135,7 +134,7 @@
         height: 590px;
         margin-left: 5px;
         margin-top: 60px;
-      }
+    }
 
     .e-dot {
         height: 15px;
@@ -148,7 +147,7 @@
     .cllg-info {
         margin-left: 30px;
         margin-top: -10px;
-      }
+    }
 
 
     .skills {
@@ -158,12 +157,62 @@
         height: 1660px;
     }
 
-    .cards-section1, .cards-section2 {
+    .cards-section1,
+    .cards-section2 {
         display: contents;
     }
 
     .myCard {
         margin: 75px;
+    }
+
+}
+
+/* For tablet devices */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .sidenav {
+        width: 170px;
+        position: fixed;
+    }
+
+    .sidenav a {
+        font-size: 35px;
+        margin-top: 70px;
+    }
+
+    .main-about {
+        margin-left: 22vw;
+        height: 1024px;
+    }
+
+    .socials {
+        margin-top: 50px;
+        margin-left: 210px;
+    }
+
+    .resume {
+        margin-left: 22vw;
+        height: 1024px;
+    }
+
+    .resume h1 {
+        margin-left: 100px;
+    }
+
+    .summary-info {
+        margin-left: -30px;
+    }
+
+    .btn-section {
+        margin-top: -30px;
+        margin-left: -30px;
+        display: block;
+    }
+    
+    .btn-section button {
+        padding: 15px;
+        width: 200px;
     }
 
 }
