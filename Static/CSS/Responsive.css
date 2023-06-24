@@ -1,6 +1,6 @@
 /* For mobile devices */
 
-@media only screen and (min-width: 375px) and (max-width: 667px) {
+@media only screen and (min-width: 260px) and (max-width: 667px) {
     .sidenav {
         height: 1px;
         width: 375px;
@@ -170,7 +170,7 @@
 
 /* For tablet devices */
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
     .sidenav {
         width: 170px;
         position: fixed;
@@ -209,10 +209,59 @@
         margin-left: -30px;
         display: block;
     }
-    
+
     .btn-section button {
         padding: 15px;
         width: 200px;
     }
 
+    .work-experience {
+        margin: 30px;
+    }
+
+    .download-resume {
+        margin: 20px;
+    }
+
+    .education {
+        margin: 10px;
+    }
+
+    .w-modalbox>.dialog {
+        height: 950px;
+        margin-top: -245px;
+        margin-left: 5px;
+    }
+
+    .e-modalbox>.dialog {
+        height: 950px;
+        margin-top: -245px;
+        margin-left: 5px;
+    }
+
+    .e-dot {
+        margin-top: 85px;
+    }
+
+    .e-vline {
+        height: 180px;
+    }
+
+    .skills {
+        height: 1024px;
+    }
+
+    .cards-section1 {
+        display: flex;
+        margin-left: -150px;
+    }
+
+    .cards-section2 {
+        margin-left: -250px;
+    }
+
+    .fab, #testing  {
+        font-size: 7em;
+        margin-left: 1px;
+    }
 }
