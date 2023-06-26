@@ -302,8 +302,7 @@ table li {
 
 .skills {
   height: 750px;
-  /* background-color: #212121; */
-  background-image: url("/Static/Img/Skills\ background\ Image.jpg");
+  background-image: url("../Img/Skills\ background\ Image.jpg");
   background-size: cover;
 }
 
