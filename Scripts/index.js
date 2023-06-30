@@ -29,7 +29,7 @@ document.getElementById("close1").addEventListener("click", function () {
 // Function to download Resume.
 
 function downloadPDF() {
-    var fileURL = "../STATIC/Pdf/Gaurav Singh- Resume.pdf"
+    var fileURL = "/Scripts/Gaurav Singh- Resume.pdf"
     var fileName = "Gaurav Singh- Resume.pdf"
 
     var a = document.createElement('a');
