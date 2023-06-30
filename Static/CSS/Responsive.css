@@ -1,6 +1,6 @@
 /* For mobile devices */
 
-@media only screen and (min-width: 260px) and (max-width: 667px) {
+@media only screen and (min-width: 260px) and (max-width: 999px) {
     .sidenav {
         height: 1px;
         width: 375px;
@@ -89,9 +89,9 @@
     }
 
     .w-modalbox>.dialog {
-        height: 590px;
+        height: 670px;
         margin-left: 5px;
-        margin-top: 60px;
+        margin-top: -10px;
     }
 
     .w-dot {
@@ -131,9 +131,9 @@
     }
 
     .e-modalbox>.dialog {
-        height: 590px;
+        height: 670px;
         margin-left: 5px;
-        margin-top: 60px;
+        margin-top: -10px;
     }
 
     .e-dot {
@@ -152,7 +152,7 @@
 
     .skills {
         position: absolute;
-        margin: 700px 0px;
+        margin: 755px 0px;
         width: 375px;
         height: 1660px;
     }
@@ -170,9 +170,10 @@
 
 /* For tablet devices */
 
-@media only screen and (min-width: 768px) and (max-width: 1400px) {
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+
     .sidenav {
-        width: 170px;
+        width: 300px;
         position: fixed;
     }
 

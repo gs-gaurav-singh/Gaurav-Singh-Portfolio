@@ -30,7 +30,7 @@ document.getElementById("close1").addEventListener("click", function () {
 
 function downloadPDF() {
     var fileURL = "../STATIC/Pdf/Gaurav Singh- Resume.pdf"
-    var fileName = "Gaurav Singh- Resume"
+    var fileName = "Gaurav Singh- Resume.pdf"
 
     var a = document.createElement('a');
     a.href = fileURL;
