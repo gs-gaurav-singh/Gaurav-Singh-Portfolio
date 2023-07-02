@@ -29,14 +29,9 @@ document.getElementById("close1").addEventListener("click", function () {
 // Function to download Resume.
 
 function downloadPDF() {
-    var fileURL = "Scripts/Gaurav Singh- Resume.pdf"
-    var fileName = "Gaurav Singh- Resume.pdf"
-
-    var a = document.createElement('a');
-    a.href = fileURL;
-    a.download = fileName;
-    a.target = '_blank';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
+    const link = document.createElement('a');
+    link.href = "Scripts/Gaurav Singh- Resume.pdf";
+    link.download = "Gaurav Singh- Resume.pdf";
+    link.target = "_blank";
+    link.click();
 }
